@@ -1,0 +1,9 @@
+development:
+  dialect: mysql
+  database: dev
+  user: buffalo
+  password: password
+  host: 127.0.0.1
+  pool: 5
+
+  

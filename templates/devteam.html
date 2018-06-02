@@ -1,0 +1,9 @@
+<h1>
+    List of people in the dev team:
+</h1>
+
+<ul class="devs">
+    <%= for (user) in users { %>
+        <li><span class="name"><%=user.Username %></span> &ndash; <span class="title"><%=user.Title %></span></li>
+    <%} %>
+</ul>

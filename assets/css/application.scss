@@ -1,0 +1,15 @@
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "~font-awesome/css/font-awesome.css";
+
+ul.devs{
+    .name{
+        font-weight:bold;
+        font-size:20px;
+        text-transform: capitalize;
+    }
+    .title{
+        font-size:18;
+        font-style:italic;
+    }
+}
